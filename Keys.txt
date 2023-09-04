@@ -1,0 +1,21 @@
+APPLICATION ID:
+
+1148243003597664346
+
+PUBLIC KEY:
+
+fc776bb6762aa4b7fc97885ceacb4a671e25bdf9faa957e7da0326027c34fea7
+
+Bot Token:
+
+MTE0ODI0MzAwMzU5NzY2NDM0Ng.GFJl_j.W_WES6TMnBDZmj9hVQvv1uFK_RIsmTU-f_1dGY
+
+
+
+GENERATED URL:
+https://discord.com/api/oauth2/authorize?client_id=1148243003597664346&permissions=8&scope=bot
+
+git fetch origin
+git checkout 1-set-up-discord-bot-framework
+
+
