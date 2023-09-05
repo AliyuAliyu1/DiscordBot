@@ -13,5 +13,8 @@
   "dependencies": {
     "discord.js": "^14.13.0"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
 }

@@ -1,8 +1,10 @@
+import { config } from "dotenv";
 import { REST, Routes } from 'discord.js';
 import { Client, GatewayIntentBits} from 'discord.js';
+config();
 const client = new Client({ intents: [GatewayIntentBits.Guilds,GatewayIntentBits.MessageContent,GatewayIntentBits.GuildMessages] });
 
-const TOKEN = 'MTE0ODI2MDc4ODY4ODEzMDEzOA.GLnk88.bzIcmYJFdNRg6Q1NOfjSvw57EcsEtevXI4JSYs'
+const TOKEN = process.env.Token_hider
 const rest = new REST({ version: '10' }).setToken(TOKEN);
 
 client.login(TOKEN)
