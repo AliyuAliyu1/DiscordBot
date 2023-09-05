@@ -5,7 +5,7 @@
   "main": "bot.js",
   "scripts": {
     "test": "jest",
-    "dev": "node index.js"
+    "dev": "node bot.js"
   },
   "keywords": [],
   "author": "",
